@@ -47,7 +47,7 @@ class Plugin {
     this.zipFile = path.join(this.outputPath, this.zipName);
     this.manifest = path.join(this.contentPath, MANIFEST);
     this.updateFile = path.join(this.outputPath, this.options.updateFilename);
-    this.updateUrl = `${this.options.updateUrl}/${this.options.updateFilename}`;
+    this.updateUrl = `${this.options.updateUrl}/${this.crxName}`;
     
     // bind methods
     this.apply = this.apply.bind(this);
