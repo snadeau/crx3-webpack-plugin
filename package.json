@@ -20,13 +20,14 @@
     "node": ">=11.0.0"
   },
   "scripts": {
-    "build": "NODE_ENV=production ./node_modules/.bin/rollup -c",
-    "start": "NODE_ENV=development node --experimental-modules src/main.js"
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/rollup -c",
+    "start": "cross-env NODE_ENV=development node --experimental-modules src/main.js"
   },
   "dependencies": {
     "crx3": "https://github.com/garrettlr/crx3#db91dc9a3f2e669afd554a7f24fcb0dcc2c9c21e"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "rollup": "^1.20.3",
     "webpack": "^4.39.0"
   },
