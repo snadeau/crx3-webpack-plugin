@@ -1,6 +1,8 @@
 # crx3-webpack-plugin
 A Webpack plugin to bundle chrome extensions for CRX3. The api is essentially identical to [crx-webpack-plugin](https://github.com/johnagan/crx-webpack-plugin), and you can simply swap the two and go.
 
+This repo has been forked from [garrettlr/crx3-webpack-plugin](https://github.com/garrettlr/crx3-webpack-plugin)
+
 ## Inspired or enabled by the following projects:
 [crx-webpack-plugin](https://github.com/johnagan/crx-webpack-plugin)
 
