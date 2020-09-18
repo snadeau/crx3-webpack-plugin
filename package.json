@@ -1,9 +1,9 @@
 {
   "name": "@snadeau/crx3-webpack-plugin",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a webpack plugin for crx3",
-  "main": "dist/bundle.js",
+  "main": "dist/bundle.cjs",
   "repository": "https://github.com/snadeau/crx3-webpack-plugin.git",
   "author": "Scott Nadeau <snadeau1@gmail.com>",
   "license": "MIT",
